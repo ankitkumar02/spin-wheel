@@ -1,0 +1,104 @@
+.home-page-container {
+	height: 100vh;
+	width: 100vw;
+	color: #fff;
+	background: url("./ludo.png")
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	.company-name {
+		font-family: GothamNarrow-Medium;
+		font-size: 52px;
+		text-align: center;
+		color: #fff;
+		margin-bottom: 45px;
+	}
+
+	.main-content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		// padding: 80px 20px;
+		.members-list-container{
+		flex: 1;
+		.members-list-container-header{
+		font-weight: bold;
+		font-size: 16px;
+		color: #fff;
+		padding-left: 95px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+
+		}
+		
+		.members-list {
+			width: 400px;
+			display: flex;
+			flex-direction: column;
+			flex-flow: wrap;
+		}
+		}
+		
+		.search-tag {
+			display: flex;
+			justify-content: center;
+			height: 25px;
+			width: 110px;
+			padding: 5px 10px;
+			margin-right: 30px;
+			margin-bottom: 5px;
+			color: #858585;
+			font-size: 17px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			line-height: 25px;
+			border: 1px solid #d5d5d5;
+			border-radius: 43px;
+			background-color: #ffffff;
+
+			.search-tag-remove {
+				padding-top: 2px;
+				padding-left: 10px;
+				cursor: pointer;
+			}
+		}
+
+		.spin-wheel-container{
+			flex: 1;
+		}
+
+	.teams-container{
+	flex: 1;
+	padding-left: 320px;
+		display: flex;
+		flex-direction: column;
+		.teams-container-header{
+		font-weight: bold;
+		font-size: 16px;
+		color: #fff;
+		padding-left: 95px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+
+		}
+		textarea {
+		height: 100px;
+    width: 200px;
+    font-size: x-large;
+	margin-bottom: 20px;
+		}
+	}
+	}
+
+	.footer-content {
+	position: absolute;
+	left: 40%;
+	bottom: 30px;
+		font-family: GothamNarrow-Medium;
+		font-size: 22px;
+		text-align: center;
+		color: #fff;
+	}
+}
